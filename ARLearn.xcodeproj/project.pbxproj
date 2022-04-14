@@ -7,23 +7,89 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4130348C275D546C006E05C6 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4130348B275D546C006E05C6 /* Utils.swift */; };
+		41303490275D54DD006E05C6 /* POIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4130348F275D54DD006E05C6 /* POIViewController.swift */; };
+		41303492275D54F6006E05C6 /* NotSupportedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41303491275D54F6006E05C6 /* NotSupportedViewController.swift */; };
+		41303494275D5511006E05C6 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41303493275D5511006E05C6 /* SettingsViewController.swift */; };
+		41303496275D5531006E05C6 /* UIButton+Designable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41303495275D5531006E05C6 /* UIButton+Designable.swift */; };
+		41303498275D5543006E05C6 /* OpenARCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41303497275D5543006E05C6 /* OpenARCell.swift */; };
+		4130349A275D5559006E05C6 /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41303499275D5559006E05C6 /* LocationCell.swift */; };
+		4130349C275D5573006E05C6 /* POIViewController+ARSCNViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4130349B275D5573006E05C6 /* POIViewController+ARSCNViewDelegate.swift */; };
+		414DC5362753B001006C7D58 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414DC5352753B001006C7D58 /* ARViewController.swift */; };
+		414DC5382753B7D6006C7D58 /* swiftUIWeatherAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414DC5372753B7D6006C7D58 /* swiftUIWeatherAppApp.swift */; };
+		4152894C274EB3C300972BAF /* WeatherNetworkMenager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4152894B274EB3C200972BAF /* WeatherNetworkMenager.swift */; };
+		4152894E274EB80100972BAF /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4152894D274EB80100972BAF /* WeatherData.swift */; };
+		41528950274EC0E300972BAF /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4152894F274EC0E300972BAF /* WeatherModel.swift */; };
+		415C3CD72724A29700BC91EE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415C3CD62724A29700BC91EE /* Extensions.swift */; };
+		416A5122274D2AD800DAB992 /* Weathers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 416A5121274D2AD700DAB992 /* Weathers.storyboard */; };
+		416A5129274D304400DAB992 /* ApplicationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416A5128274D304400DAB992 /* ApplicationsViewController.swift */; };
+		416A512C274D717F00DAB992 /* Ikea.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 416A512B274D717F00DAB992 /* Ikea.storyboard */; };
+		41A83991272FDE6D00C23696 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41A83990272FDE6D00C23696 /* Assets.xcassets */; };
+		41AE30A9272F34680057113F /* IkeaAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AE30A8272F34680057113F /* IkeaAppViewController.swift */; };
+		41B0EA9D274E58FC00F24FC1 /* ChildHostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B0EA9C274E58FC00F24FC1 /* ChildHostingController.swift */; };
+		41BBFBFE277230920017BC3A /* Navigation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41BBFBFD277230920017BC3A /* Navigation.storyboard */; };
+		41BBFC162772376F0017BC3A /* PickerViewController.swift 19-06-22-079.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BBFC132772376F0017BC3A /* PickerViewController.swift 19-06-22-079.swift */; };
+		41BBFC182772377F0017BC3A /* ARCLViewController.swift 19-06-22-071.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BBFC172772377F0017BC3A /* ARCLViewController.swift 19-06-22-071.swift */; };
+		41BBFC1A2772378E0017BC3A /* Node.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41BBFC192772378E0017BC3A /* Node.storyboard */; };
+		41BF7DC3272EBF4700A9E90A /* AnimationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BF7DC2272EBF4700A9E90A /* AnimationModel.swift */; };
+		41BF7DCC272EC6CA00A9E90A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BF7DCB272EC6CA00A9E90A /* MainViewController.swift */; };
+		41BF7DCE272EC6E600A9E90A /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BF7DCD272EC6E600A9E90A /* MainCollectionViewCell.swift */; };
 		41C7296A27246D4500AEB355 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C7296927246D4500AEB355 /* AppDelegate.swift */; };
 		41C7296C27246D4500AEB355 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C7296B27246D4500AEB355 /* SceneDelegate.swift */; };
-		41C7296E27246D4500AEB355 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C7296D27246D4500AEB355 /* ViewController.swift */; };
 		41C7297127246D4500AEB355 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41C7296F27246D4500AEB355 /* Main.storyboard */; };
-		41C7297327246D4B00AEB355 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41C7297227246D4B00AEB355 /* Assets.xcassets */; };
 		41C7297627246D4B00AEB355 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41C7297427246D4B00AEB355 /* LaunchScreen.storyboard */; };
+		41C72982272472E600AEB355 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C72981272472E500AEB355 /* AuthViewController.swift */; };
+		41C729842724730200AEB355 /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41C729832724730200AEB355 /* Auth.storyboard */; };
+		41C7298727247BE400AEB355 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C7298627247BE300AEB355 /* SplashViewController.swift */; };
+		41C7298927247BF200AEB355 /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41C7298827247BF200AEB355 /* Splash.storyboard */; };
+		41D1B0A627404FCE00321573 /* cup_saucer_set.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 41D1B0A527404FCD00321573 /* cup_saucer_set.usdz */; };
+		D102853C343E37D1791E7EFC /* Pods_ARLearn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 660B9BE339E5A2DCC8618A6E /* Pods_ARLearn.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B21A12CD0098B86F0235A4C /* Pods-ARLearn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARLearn.debug.xcconfig"; path = "Target Support Files/Pods-ARLearn/Pods-ARLearn.debug.xcconfig"; sourceTree = "<group>"; };
+		22BB275ACD8EC79177398771 /* Pods-ARLearn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARLearn.release.xcconfig"; path = "Target Support Files/Pods-ARLearn/Pods-ARLearn.release.xcconfig"; sourceTree = "<group>"; };
+		4130348B275D546C006E05C6 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		4130348F275D54DD006E05C6 /* POIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POIViewController.swift; sourceTree = "<group>"; };
+		41303491275D54F6006E05C6 /* NotSupportedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotSupportedViewController.swift; sourceTree = "<group>"; };
+		41303493275D5511006E05C6 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		41303495275D5531006E05C6 /* UIButton+Designable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Designable.swift"; sourceTree = "<group>"; };
+		41303497275D5543006E05C6 /* OpenARCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenARCell.swift; sourceTree = "<group>"; };
+		41303499275D5559006E05C6 /* LocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
+		4130349B275D5573006E05C6 /* POIViewController+ARSCNViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "POIViewController+ARSCNViewDelegate.swift"; sourceTree = "<group>"; };
+		414DC5352753B001006C7D58 /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		414DC5372753B7D6006C7D58 /* swiftUIWeatherAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftUIWeatherAppApp.swift; sourceTree = "<group>"; };
+		4152894B274EB3C200972BAF /* WeatherNetworkMenager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherNetworkMenager.swift; sourceTree = "<group>"; };
+		4152894D274EB80100972BAF /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		4152894F274EC0E300972BAF /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		415C3CD62724A29700BC91EE /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		416A5121274D2AD700DAB992 /* Weathers.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Weathers.storyboard; sourceTree = "<group>"; };
+		416A5128274D304400DAB992 /* ApplicationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationsViewController.swift; sourceTree = "<group>"; };
+		416A512B274D717F00DAB992 /* Ikea.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Ikea.storyboard; sourceTree = "<group>"; };
+		41A83990272FDE6D00C23696 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41AE30A8272F34680057113F /* IkeaAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IkeaAppViewController.swift; sourceTree = "<group>"; };
+		41B0EA9C274E58FC00F24FC1 /* ChildHostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildHostingController.swift; sourceTree = "<group>"; };
+		41BBFBFD277230920017BC3A /* Navigation.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Navigation.storyboard; sourceTree = "<group>"; };
+		41BBFC112772376F0017BC3A /* SceneDelegate.swift 19-06-22-078.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SceneDelegate.swift 19-06-22-078.swift"; sourceTree = "<group>"; };
+		41BBFC122772376F0017BC3A /* AppDelegate.swift 19-06-22-076.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate.swift 19-06-22-076.swift"; sourceTree = "<group>"; };
+		41BBFC132772376F0017BC3A /* PickerViewController.swift 19-06-22-079.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PickerViewController.swift 19-06-22-079.swift"; sourceTree = "<group>"; };
+		41BBFC172772377F0017BC3A /* ARCLViewController.swift 19-06-22-071.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ARCLViewController.swift 19-06-22-071.swift"; sourceTree = "<group>"; };
+		41BBFC192772378E0017BC3A /* Node.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Node.storyboard; sourceTree = "<group>"; };
+		41BF7DC2272EBF4700A9E90A /* AnimationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationModel.swift; sourceTree = "<group>"; };
+		41BF7DCB272EC6CA00A9E90A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		41BF7DCD272EC6E600A9E90A /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
 		41C7296627246D4500AEB355 /* ARLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41C7296927246D4500AEB355 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41C7296B27246D4500AEB355 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		41C7296D27246D4500AEB355 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		41C7297027246D4500AEB355 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		41C7297227246D4B00AEB355 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41C7297527246D4B00AEB355 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41C7297727246D4B00AEB355 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41C72981272472E500AEB355 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		41C729832724730200AEB355 /* Auth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
+		41C7298627247BE300AEB355 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		41C7298827247BF200AEB355 /* Splash.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Splash.storyboard; sourceTree = "<group>"; };
+		41D1B0A527404FCD00321573 /* cup_saucer_set.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = cup_saucer_set.usdz; sourceTree = "<group>"; };
+		660B9BE339E5A2DCC8618A6E /* Pods_ARLearn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARLearn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +97,129 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D102853C343E37D1791E7EFC /* Pods_ARLearn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4130348A275D53F1006E05C6 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				4130348B275D546C006E05C6 /* Utils.swift */,
+				4130348F275D54DD006E05C6 /* POIViewController.swift */,
+				41303491275D54F6006E05C6 /* NotSupportedViewController.swift */,
+				41303493275D5511006E05C6 /* SettingsViewController.swift */,
+				41303495275D5531006E05C6 /* UIButton+Designable.swift */,
+				41303497275D5543006E05C6 /* OpenARCell.swift */,
+				41303499275D5559006E05C6 /* LocationCell.swift */,
+				4130349B275D5573006E05C6 /* POIViewController+ARSCNViewDelegate.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		414DC5392753C691006C7D58 /* ARModel */ = {
+			isa = PBXGroup;
+			children = (
+				414DC5352753B001006C7D58 /* ARViewController.swift */,
+			);
+			path = ARModel;
+			sourceTree = "<group>";
+		};
+		4152894A274EB38F00972BAF /* WeatherModel */ = {
+			isa = PBXGroup;
+			children = (
+				4152894B274EB3C200972BAF /* WeatherNetworkMenager.swift */,
+				4152894D274EB80100972BAF /* WeatherData.swift */,
+				4152894F274EC0E300972BAF /* WeatherModel.swift */,
+			);
+			path = WeatherModel;
+			sourceTree = "<group>";
+		};
+		415C3CD52724A27F00BC91EE /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				415C3CD62724A29700BC91EE /* Extensions.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		415C3CDB2724AD4D00BC91EE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				41BF7DCB272EC6CA00A9E90A /* MainViewController.swift */,
+				416A5128274D304400DAB992 /* ApplicationsViewController.swift */,
+				41D1B0A527404FCD00321573 /* cup_saucer_set.usdz */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		416A511E274D273F00DAB992 /* Weathers */ = {
+			isa = PBXGroup;
+			children = (
+				414DC5392753C691006C7D58 /* ARModel */,
+				416A5123274D2BBD00DAB992 /* weatherJson */,
+				4152894A274EB38F00972BAF /* WeatherModel */,
+				416A5121274D2AD700DAB992 /* Weathers.storyboard */,
+				41B0EA9C274E58FC00F24FC1 /* ChildHostingController.swift */,
+				414DC5372753B7D6006C7D58 /* swiftUIWeatherAppApp.swift */,
+			);
+			path = Weathers;
+			sourceTree = "<group>";
+		};
+		416A5123274D2BBD00DAB992 /* weatherJson */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = weatherJson;
+			sourceTree = "<group>";
+		};
+		416A512A274D715500DAB992 /* Ikea */ = {
+			isa = PBXGroup;
+			children = (
+				41AE30A8272F34680057113F /* IkeaAppViewController.swift */,
+				416A512B274D717F00DAB992 /* Ikea.storyboard */,
+			);
+			path = Ikea;
+			sourceTree = "<group>";
+		};
+		41BBFC10277233080017BC3A /* Node */ = {
+			isa = PBXGroup;
+			children = (
+				41BBFC192772378E0017BC3A /* Node.storyboard */,
+				41BBFC172772377F0017BC3A /* ARCLViewController.swift 19-06-22-071.swift */,
+				41BBFC122772376F0017BC3A /* AppDelegate.swift 19-06-22-076.swift */,
+				41BBFC132772376F0017BC3A /* PickerViewController.swift 19-06-22-079.swift */,
+				41BBFC112772376F0017BC3A /* SceneDelegate.swift 19-06-22-078.swift */,
+			);
+			path = Node;
+			sourceTree = "<group>";
+		};
+		41BF7DBE272EBEDF00A9E90A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				41BF7DCD272EC6E600A9E90A /* MainCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		41BF7DC1272EBF3100A9E90A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				41BF7DC2272EBF4700A9E90A /* AnimationModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		41C7295D27246D4500AEB355 = {
 			isa = PBXGroup;
 			children = (
 				41C7296827246D4500AEB355 /* ARLearn */,
+				41BBFC10277233080017BC3A /* Node */,
 				41C7296727246D4500AEB355 /* Products */,
+				D7120E681A0E86D94F74D485 /* Pods */,
+				621241AB4FE4EC851EA492C3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +234,75 @@
 		41C7296827246D4500AEB355 /* ARLearn */ = {
 			isa = PBXGroup;
 			children = (
+				4130348A275D53F1006E05C6 /* Navigation */,
+				416A512A274D715500DAB992 /* Ikea */,
+				416A511E274D273F00DAB992 /* Weathers */,
+				415C3CD52724A27F00BC91EE /* Shared */,
+				41C7298527247BC600AEB355 /* Splash */,
+				41C72980272472C600AEB355 /* Auth */,
+				41C7297D27246D5800AEB355 /* Main */,
+				41BBFBFD277230920017BC3A /* Navigation.storyboard */,
+				41C7296F27246D4500AEB355 /* Main.storyboard */,
 				41C7296927246D4500AEB355 /* AppDelegate.swift */,
 				41C7296B27246D4500AEB355 /* SceneDelegate.swift */,
-				41C7296D27246D4500AEB355 /* ViewController.swift */,
-				41C7296F27246D4500AEB355 /* Main.storyboard */,
-				41C7297227246D4B00AEB355 /* Assets.xcassets */,
+				41A83990272FDE6D00C23696 /* Assets.xcassets */,
 				41C7297427246D4B00AEB355 /* LaunchScreen.storyboard */,
 				41C7297727246D4B00AEB355 /* Info.plist */,
 			);
 			path = ARLearn;
+			sourceTree = "<group>";
+		};
+		41C7297D27246D5800AEB355 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				41CE18A22775DF2500BED485 /* Lotties */,
+				41BF7DC1272EBF3100A9E90A /* Model */,
+				41BF7DBE272EBEDF00A9E90A /* Views */,
+				415C3CDB2724AD4D00BC91EE /* ViewControllers */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		41C72980272472C600AEB355 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				41C72981272472E500AEB355 /* AuthViewController.swift */,
+				41C729832724730200AEB355 /* Auth.storyboard */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		41C7298527247BC600AEB355 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				41C7298627247BE300AEB355 /* SplashViewController.swift */,
+				41C7298827247BF200AEB355 /* Splash.storyboard */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		41CE18A22775DF2500BED485 /* Lotties */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lotties;
+			sourceTree = "<group>";
+		};
+		621241AB4FE4EC851EA492C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				660B9BE339E5A2DCC8618A6E /* Pods_ARLearn.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7120E681A0E86D94F74D485 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B21A12CD0098B86F0235A4C /* Pods-ARLearn.debug.xcconfig */,
+				22BB275ACD8EC79177398771 /* Pods-ARLearn.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +312,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41C7297A27246D4B00AEB355 /* Build configuration list for PBXNativeTarget "ARLearn" */;
 			buildPhases = (
+				50874D020B510313F0246E42 /* [CP] Check Pods Manifest.lock */,
 				41C7296227246D4500AEB355 /* Sources */,
 				41C7296327246D4500AEB355 /* Frameworks */,
 				41C7296427246D4500AEB355 /* Resources */,
+				CEF2BD5264536925B36F5B29 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,22 +365,94 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41C729842724730200AEB355 /* Auth.storyboard in Resources */,
+				41D1B0A627404FCE00321573 /* cup_saucer_set.usdz in Resources */,
 				41C7297627246D4B00AEB355 /* LaunchScreen.storyboard in Resources */,
-				41C7297327246D4B00AEB355 /* Assets.xcassets in Resources */,
+				41C7298927247BF200AEB355 /* Splash.storyboard in Resources */,
 				41C7297127246D4500AEB355 /* Main.storyboard in Resources */,
+				41BBFBFE277230920017BC3A /* Navigation.storyboard in Resources */,
+				41A83991272FDE6D00C23696 /* Assets.xcassets in Resources */,
+				416A512C274D717F00DAB992 /* Ikea.storyboard in Resources */,
+				41BBFC1A2772378E0017BC3A /* Node.storyboard in Resources */,
+				416A5122274D2AD800DAB992 /* Weathers.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50874D020B510313F0246E42 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARLearn-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEF2BD5264536925B36F5B29 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARLearn/Pods-ARLearn-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARLearn/Pods-ARLearn-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ARLearn/Pods-ARLearn-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		41C7296227246D4500AEB355 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41C7296E27246D4500AEB355 /* ViewController.swift in Sources */,
+				41BF7DCE272EC6E600A9E90A /* MainCollectionViewCell.swift in Sources */,
+				41BF7DC3272EBF4700A9E90A /* AnimationModel.swift in Sources */,
+				41BBFC162772376F0017BC3A /* PickerViewController.swift 19-06-22-079.swift in Sources */,
+				4152894E274EB80100972BAF /* WeatherData.swift in Sources */,
+				41303494275D5511006E05C6 /* SettingsViewController.swift in Sources */,
+				41BBFC182772377F0017BC3A /* ARCLViewController.swift 19-06-22-071.swift in Sources */,
+				414DC5362753B001006C7D58 /* ARViewController.swift in Sources */,
+				4152894C274EB3C300972BAF /* WeatherNetworkMenager.swift in Sources */,
+				41528950274EC0E300972BAF /* WeatherModel.swift in Sources */,
+				41C72982272472E600AEB355 /* AuthViewController.swift in Sources */,
+				41303498275D5543006E05C6 /* OpenARCell.swift in Sources */,
+				416A5129274D304400DAB992 /* ApplicationsViewController.swift in Sources */,
+				41AE30A9272F34680057113F /* IkeaAppViewController.swift in Sources */,
+				4130348C275D546C006E05C6 /* Utils.swift in Sources */,
+				414DC5382753B7D6006C7D58 /* swiftUIWeatherAppApp.swift in Sources */,
+				4130349C275D5573006E05C6 /* POIViewController+ARSCNViewDelegate.swift in Sources */,
+				4130349A275D5559006E05C6 /* LocationCell.swift in Sources */,
+				41303490275D54DD006E05C6 /* POIViewController.swift in Sources */,
+				415C3CD72724A29700BC91EE /* Extensions.swift in Sources */,
+				41303492275D54F6006E05C6 /* NotSupportedViewController.swift in Sources */,
 				41C7296A27246D4500AEB355 /* AppDelegate.swift in Sources */,
 				41C7296C27246D4500AEB355 /* SceneDelegate.swift in Sources */,
+				41303496275D5531006E05C6 /* UIButton+Designable.swift in Sources */,
+				41C7298727247BE400AEB355 /* SplashViewController.swift in Sources */,
+				41B0EA9D274E58FC00F24FC1 /* ChildHostingController.swift in Sources */,
+				41BF7DCC272EC6CA00A9E90A /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +596,7 @@
 		};
 		41C7297B27246D4B00AEB355 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B21A12CD0098B86F0235A4C /* Pods-ARLearn.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +625,7 @@
 		};
 		41C7297C27246D4B00AEB355 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22BB275ACD8EC79177398771 /* Pods-ARLearn.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

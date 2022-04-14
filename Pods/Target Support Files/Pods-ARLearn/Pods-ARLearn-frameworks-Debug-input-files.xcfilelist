@@ -1,0 +1,6 @@
+${PODS_ROOT}/Target Support Files/Pods-ARLearn/Pods-ARLearn-frameworks.sh
+${BUILT_PRODUCTS_DIR}/ARCL/ARCL.framework
+${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework
+${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework
+${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework
+${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework

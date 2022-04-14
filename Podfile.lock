@@ -1,0 +1,39 @@
+PODS:
+  - ARCL (1.3.0)
+  - CocoaLumberjack (3.7.2):
+    - CocoaLumberjack/Core (= 3.7.2)
+  - CocoaLumberjack/Core (3.7.2)
+  - lottie-ios (3.2.3)
+  - NVActivityIndicatorView (5.1.1):
+    - NVActivityIndicatorView/Base (= 5.1.1)
+  - NVActivityIndicatorView/Base (5.1.1)
+  - NVActivityIndicatorView/Extended (5.1.1):
+    - NVActivityIndicatorView/Base
+  - SCLAlertView (0.8)
+
+DEPENDENCIES:
+  - ARCL
+  - CocoaLumberjack
+  - lottie-ios
+  - NVActivityIndicatorView
+  - NVActivityIndicatorView/Extended
+  - SCLAlertView
+
+SPEC REPOS:
+  trunk:
+    - ARCL
+    - CocoaLumberjack
+    - lottie-ios
+    - NVActivityIndicatorView
+    - SCLAlertView
+
+SPEC CHECKSUMS:
+  ARCL: db48b6927d6f3f49f29568295ed91c94ab8d4aab
+  CocoaLumberjack: b7e05132ff94f6ae4dfa9d5bce9141893a21d9da
+  lottie-ios: c058aeafa76daa4cf64d773554bccc8385d0150e
+  NVActivityIndicatorView: 1f6c5687f1171810aa27a3296814dc2d7dec3667
+  SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
+
+PODFILE CHECKSUM: 82202d2e3366cdd3a6ce7a96cb032ad12057bb3a
+
+COCOAPODS: 1.10.1

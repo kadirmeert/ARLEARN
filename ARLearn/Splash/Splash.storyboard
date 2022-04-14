@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Splash View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="Y6W-OH-hqX" customClass="SplashViewController" customModule="ARLearn" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppLogo" translatesAutoresizingMaskIntoConstraints="NO" id="vO9-nH-PKR">
+                                <rect key="frame" x="-20" y="264" width="454" height="378"/>
+                                <color key="backgroundColor" red="0.94891661410000006" green="0.9490789771" blue="0.94890636210000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" red="0.94891661410000006" green="0.9490789771" blue="0.94890636210000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="vO9-nH-PKR" secondAttribute="trailing" constant="-20" id="TOm-tc-FHv"/>
+                            <constraint firstItem="vO9-nH-PKR" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="220" id="XOJ-r6-3V2"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="vO9-nH-PKR" secondAttribute="bottom" constant="220" id="aD6-aA-2Bf"/>
+                            <constraint firstItem="vO9-nH-PKR" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" constant="-20" id="soQ-Jc-M9C"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <segue destination="VoA-90-5cV" kind="show" identifier="sendAuth" id="exv-xT-tVI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="34.782608695652179" y="84.375"/>
+        </scene>
+        <!--Auth-->
+        <scene sceneID="ERH-C2-W7n">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Auth" id="VoA-90-5cV" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="UqO-Lh-588"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cl6-tZ-3YE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="36" y="479"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="AppLogo" width="1000" height="1000"/>
+    </resources>
+</document>
